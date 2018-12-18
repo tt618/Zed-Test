@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/build/CMakeFiles/generate.stamp is up-to-date.
+cl : Command line warning D9002: ignoring unknown option '-g'
+cl : Command line warning D9002: ignoring unknown option '-O3'
+  main.cpp
+C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\include\utils.hpp(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\include\utils.hpp(56): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\include\utils.hpp(79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\src\main.cpp(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\src\main.cpp(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\src\main.cpp(114): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ZED_SVO_Export.vcxproj -> C:\Users\tt2736\Documents\Visual Studio 2015\Projects\export\build\Debug\ZED_SVO_Export.exe
+  ZED_SVO_Export.vcxproj -> C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/build/Debug/ZED_SVO_Export.pdb (Full PDB)

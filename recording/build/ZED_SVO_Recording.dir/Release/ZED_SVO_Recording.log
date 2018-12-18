@@ -1,0 +1,4 @@
+﻿cl : Command line warning D9002: ignoring unknown option '-g'
+cl : Command line warning D9002: ignoring unknown option '-O3'
+  main.cpp
+  ZED_SVO_Recording.vcxproj -> C:\Users\tt2736\Documents\Visual Studio 2015\Projects\svo recording\recording\build\Release\ZED_SVO_Recording.exe

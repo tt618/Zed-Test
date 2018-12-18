@@ -1,0 +1,42 @@
+﻿  Building Custom Rule C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/CMakeLists.txt
+  CMake is re-running because C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/build/CMakeFiles/generate.stamp dependency file is missing.
+  CMake Deprecation Warning at CMakeLists.txt:6 (cmake_policy):
+    The OLD behavior for policy CMP0003 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  
+  
+  CMake Deprecation Warning at CMakeLists.txt:7 (cmake_policy):
+    The OLD behavior for policy CMP0015 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  
+  
+  CMake Error at C:/Program Files (x86)/ZED SDK/zed-config.cmake:73 (message):
+    You've selected the 32bit version of Visual Studio 14 2015.
+  
+     Please delete the cache (file->Delete Cache) and use the 64bit version. (Visual Studio 14 2015 Win64)
+  Call Stack (most recent call first):
+    CMakeLists.txt:12 (find_package)
+  
+  
+  CMake Error at CMakeLists.txt:12 (find_package):
+    Found package configuration file:
+  
+      C:/Program Files (x86)/ZED SDK/zed-config.cmake
+  
+    but it set ZED_FOUND to FALSE so package "ZED" is considered to be NOT
+    FOUND.
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/build/CMakeFiles/CMakeOutput.log".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.

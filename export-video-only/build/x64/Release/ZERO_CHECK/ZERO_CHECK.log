@@ -1,0 +1,58 @@
+﻿  Checking Build System
+  CMake is re-running because generate.stamp.list is missing.
+  -- Building for: Visual Studio 14 2015
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  CMake Deprecation Warning at CMakeLists.txt:6 (cmake_policy):
+    The OLD behavior for policy CMP0003 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  
+  
+  CMake Deprecation Warning at CMakeLists.txt:7 (cmake_policy):
+    The OLD behavior for policy CMP0015 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  
+  
+  CMake Error at C:/Program Files (x86)/ZED SDK/zed-config.cmake:73 (message):
+    You've selected the 32bit version of Visual Studio 14 2015.
+  
+     Please delete the cache (file->Delete Cache) and use the 64bit version. (Visual Studio 14 2015 Win64)
+  Call Stack (most recent call first):
+    CMakeLists.txt:12 (find_package)
+  
+  
+  CMake Error at CMakeLists.txt:12 (find_package):
+    Found package configuration file:
+  
+      C:/Program Files (x86)/ZED SDK/zed-config.cmake
+  
+    but it set ZED_FOUND to FALSE so package "ZED" is considered to be NOT
+    FOUND.
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Users/tt2736/Documents/Visual Studio 2015/Projects/export/build/CMakeFiles/CMakeOutput.log".
+  CMake Configure step failed.  Build files cannot be regenerated correctly.  Attempting to stop IDE build.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code -1073741819.

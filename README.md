@@ -11,6 +11,9 @@ For using the exe, should using CMD, the paramater is like:  .../.../ZED_SVO_Rec
 
 Addition:
 1: In 2 and 3, the .exe is in the bulid/release/, you can change the code to rebulid them. But for this function, I think no need to rebulid them.
+
 2. The recording code is in recording folder, you can change the camera resolution, FPS, exposure time in the code, and rebulid it.
+
 3: Actually, sometimes there is unknown reason to error building, and when it occurs error, never successfully rebuild again. As this reason, I separate some typical exposure time .exes in Recording App folder, if you can not rebulid again, just use that. 
+
 4: I also uploaded the original codes as the zip, if the solution is broken, and can't successfully rebuild again (mentioned 3), you can use cmake to rebulid the original code, and just copy the broken solution's code to new code, it should be working.
